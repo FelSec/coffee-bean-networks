@@ -1,0 +1,24 @@
+{% extends 'base.html' %} {% block title %}Blog{% endblock %} {% block content
+%}
+<div class="row">
+  <section class="twelve columns">
+    <h2>Latest Blog Posts</h2>
+    <ul class="container">
+      {% for post in posts %}
+      <li>
+        <div class="six columns" style="display: flex; margin-bottom: 2em">
+          <div
+            class="four columns"
+            style="width: 128px; height: 128px; background-color: #9c6f44"
+          ></div>
+          <div class="eight columns">
+            <h4>{{ post.title }}</h4>
+            <a href="/blog?id={{post.id}}">Read More...</a>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
+{% endblock %}

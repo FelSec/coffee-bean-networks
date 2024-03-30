@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% block title %}Shop{% endblock %} {% block content
+    %}
+    <div class="row">
+      <section class="twelve columns">
+        <h2>Latest Products</h2>
+        <p>This area is under active development and not ready for public release.</p><!-- so bugger off! ~ Graham -->
+        <div class="row">
+          <ul class="container">
+            {% for product in products %}
+            <li>
+              <div class="four columns" style="margin-bottom: 2em; margin-right: 1em;">
+                <a class="clean" href="/shop?product={{product.id}}">
+                  <div class="full-width" style="padding: 8px; background-color: #2a2a2a04;">
+                    <img class="img-shop" style="display: block; margin: 0 auto;" src="{{ url_for('static', filename='img/products/beans.jpg') }}" alt="Product Image" />
+                    <h4>{{ product.name }}</h4>
+                    <p>£{{ product.price }}</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    </div>
+    {% endblock %}

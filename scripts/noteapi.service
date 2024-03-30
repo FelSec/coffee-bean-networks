@@ -1,0 +1,9 @@
+[Unit]
+Description=Graham - Note and logging application
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /CBN/noteapi.py
+[Install]
+WantedBy=multi-user.target

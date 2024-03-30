@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{% endblock %} - Coffee Bean Networks</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  </head>
+  <body>
+    <header class="row">
+      <div class="twelve columns">
+        <h2 class="four columns">Coffee Bean Networks</h2>
+        <ul class="eight columns">
+          <li class="two columns"><a href="/">Home</a></li>
+          <li class="two columns"><a href="/about">About</a></li>
+          <li class="two columns"><a href="/contact">Contact</a></li>
+          <li class="two columns"><a href="/blog">Blog</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>{% block content %} {% endblock %}</main>
+    <footer>
+      <p>&copy; 2024 Coffee Bean Networks. All rights reserved.</p>
+      <a href="/status">Check App Status?</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/flags">Submit Your Flags Here!</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="ping" href="/api/en/ping"></a>
+    </footer>
+    <script>
+      setTimeout(() => {
+      fetch('/api/en/ping').then(r => r.json()).then(d => document.body.querySelector('#ping').textContent = d.response)
+      },10000);
+    </script>
+  </body>
+</html>

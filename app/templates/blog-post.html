@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Blog - {{post.title}}{% endblock %}
+
+{% block content %}
+
+<!-- Use the debug parameter to to check the data ~ Graham -->
+{% if debug %}
+<div class="row">
+    <div class="twelve columns">
+<div class="box">
+    <h2>Debug:</h2>
+    <pre>
+        <code>
+{{ data }}
+        </code>
+    </pre>
+</div>
+</div>
+</div>
+{% endif %}
+    <div class="twelve columns">
+<section>
+    <h2>{{ post[0]['$1'][0].title }}</h2>
+    <p>{{ post[0]['$1'][0].content }}</p>
+</section>
+</div>
+{% endblock %}

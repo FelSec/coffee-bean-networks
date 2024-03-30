@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}App Status{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="twelve columns">
+<section>
+    <div class="mb2">
+        <h2 class="three columns">Status Message</h2>
+        <a class="button u-max-full-width mt1" href="?action=refresh">Refresh</a>
+    </div>
+        <pre>
+            <code>
+Service is {{ msg.status }}!
+            </code>
+        </pre>
+</section>
+</div>
+</div>
+{% endblock %}

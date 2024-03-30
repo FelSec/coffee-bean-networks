@@ -1,0 +1,9 @@
+[Unit]
+Description=Coffee Bean Networks Web Application
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /CBN/cbn.py
+[Install]
+WantedBy=multi-user.target

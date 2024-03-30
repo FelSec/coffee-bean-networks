@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Shop - {{product.name}}{% endblock %}
+
+{% block content %}
+    <div class="twelve columns">
+<section>
+    <div class="row"><h2>{{ product.name }}</h2></div>
+    <div class="row">
+        <div class="twelve columns">
+            <div class="four columns">
+                <img style="display: block; margin: 0 auto;" src="{{ url_for('static', filename='img/products/beans.jpg') }}" alt="Product Image" />
+            </div>
+            <div class="eight columns">
+                <h4>Price</h4>
+                <p>£{{ product.price }}</p>
+                <h4>Description</h4>
+                <p>{{ product.description }}</p>
+                <h5>Strength:&nbsp;{{product.strength}}/5</h5>
+                <h5>Beans:</h5><p>{{product.beans}}</p>
+                <h5>Flavours:</h5><p>{{product.flavours}}</p>
+                <h5>Intensity:</h5><p>{{product.intensity}}</p>
+                {% if product.suffix %}
+                <p>{{ product.suffix }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<!-- Dev Notes: Fletcher, I've spun up a little API server for hosting our dev notes on the server.
+    Shouldn't be too hard to find, even for you! I've left some notes on there for you to look at while I'm away.
+    ~ Graham
+-->
+{% if product.id == "967f536c4b3925c5" %}
+<!-- Dev Notes: Fletcher, Stop enabling the CURL function on the DB!! It's disabled for a reason. ~ Graham -->
+{% endif %}
+{% endblock %}

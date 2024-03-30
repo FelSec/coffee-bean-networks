@@ -1,0 +1,90 @@
+[
+    {
+        "id": "a4df7cc43a3d5d96",
+        "name": "Pixelated Pour",
+        "description":"Experience the perfect fusion of sophistication and flavor with Pixelated Pour. Crafted with precision and passion, this unique blend offers a tantalizing symphony of rich coffee notes and delicate undertones, guaranteed to enchant your senses with every sip.",
+        "strength":3,
+        "beans":"Pixelated Pour features a blend of high-quality Arabica beans sourced from the finest coffee regions around the world. Each bean is carefully selected for its exceptional flavor profile, resulting in a well-balanced and nuanced coffee experience that is truly unparalleled.",
+        "flavours":"Delight in the captivating aroma of freshly brewed coffee, as notes of chocolate and caramel dance on your palate. With Pixelated Pour, every sip is a journey of discovery, revealing layers of complexity and depth that will leave you craving for more.",
+        "intensity":"Pixelated Pour offers a medium intensity, making it the perfect choice for those who appreciate a coffee that is both flavorful and smooth. Whether enjoyed as a morning indulgence or a mid-day pick-me-up, Pixelated Pour promises to elevate your coffee experience to new heights.",
+        "suffix":"Savor the artistry of Pixelated Pour and immerse yourself in a world of unparalleled flavor and sophistication. With every cup, experience the magic that only Pixelated Pour can deliver.",
+        "price": "8.00"
+    },
+    {
+        "id": "ed7870f9fa3d3cfc",
+        "name": "Digital Drip",
+        "description":"Embark on a journey of flavor and aroma with Digital Drip, a meticulously crafted blend that combines the finest Arabica beans with the essence of pure indulgence. From the first tantalizing sip to the last lingering note, Digital Drip promises to captivate your senses and awaken your palate.",
+        "strength":4,
+        "beans":"Digital Drip features a carefully selected blend of Arabica beans, sourced from the world's most renowned coffee regions. Each bean is expertly roasted to perfection, ensuring a rich and robust flavor profile that is both satisfying and memorable.",
+        "flavours":"Immerse yourself in the bold, full-bodied flavor of Digital Drip, as hints of dark chocolate and toasted nuts dance on your palate. With every sip, experience a symphony of flavors that tantalizes the taste buds and leaves you craving for more.",
+        "intensity":"Digital Drip boasts a high intensity, making it the perfect choice for those who seek a coffee that packs a punch. Whether enjoyed as a morning wake-up call or an afternoon indulgence, Digital Drip promises to satisfy even the most discerning coffee connoisseurs.",
+        "suffix":"Experience the luxury of Digital Drip and discover a new level of coffee perfection. With every cup, savor the exquisite taste and aroma that only Digital Drip can provide.",
+        "price": "10.00"
+    },
+    {
+        "id": "c118bb6eb6d4eec5",
+        "name": "DDoS Decaf",
+        "description":"Savor the rich, robust flavor of DDoS Decaf, a premium blend that combines the finest Arabica beans with the indulgent smoothness of decaffeinated coffee. Crafted with care and precision, DDoS Decaf promises a truly satisfying coffee experience without the caffeine kick.",
+        "strength":2,
+        "beans":"DDoS Decaf features a blend of carefully selected Arabica beans, chosen for their exceptional flavor and aroma. Each bean is meticulously roasted to perfection, ensuring a smooth and satisfying coffee experience that is perfect for any time of day.",
+        "flavours":"Delight in the velvety smoothness of DDoS Decaf, as notes of caramel and toasted nuts envelop your palate. With every sip, experience a rich and satisfying flavor profile that is sure to please even the most discerning coffee lover.",
+        "intensity":"DDoS Decaf offers a low intensity, making it the perfect choice for those who prefer a milder coffee experience. Whether enjoyed as a morning ritual or an afternoon treat, DDoS Decaf promises to deliver a truly satisfying coffee experience without the caffeine.",
+        "suffix":"Indulge in the luxurious taste and aroma of DDoS Decaf and discover a new level of coffee enjoyment. With every cup, savor the smooth, satisfying flavor that only DDoS Decaf can provide.",
+        "price": "9.00"
+    },
+    {
+        "id": "bd07454fa103ca6d",
+        "name": "Mocha-in-the-Middle",
+        "description":"Treat yourself to the irresistible allure of Mocha-in-the-Middle, a decadent blend that combines the rich, velvety flavor of chocolate with the bold, robust notes of coffee. Indulge your senses and elevate your coffee experience with every luxurious sip.",
+        "strength":3,
+        "beans":"Mocha-in-the-Middle features a carefully curated blend of Arabica and Robusta beans, sourced from the world's most renowned coffee regions. Each bean is expertly roasted to perfection, ensuring a rich and satisfying flavor profile that is sure to impress.",
+        "flavours":"Immerse yourself in the indulgent richness of Mocha-in-the-Middle, as velvety chocolate undertones mingle with the bold, complex flavors of coffee. With every sip, experience a symphony of flavors that tantalizes the taste buds and leaves you craving for more.",
+        "intensity":"Mocha-in-the-Middle offers a medium intensity, making it the perfect choice for those who seek a coffee that is both flavorful and satisfying. Whether enjoyed as a morning indulgence or an afternoon pick-me-up, Mocha-in-the-Middle promises to deliver a truly unforgettable coffee experience.",
+        "suffix":"Indulge in the luxurious taste and aroma of Mocha-in-the-Middle and discover a new level of coffee perfection. With every cup, savor the exquisite flavor and richness that only Mocha-in-the-Middle can provide.",
+        "price": "11.00"
+    },
+    {
+        "id": "967f536c4b3925c5",
+        "name": "Curl Caramel",
+        "description": "Indulge in the exquisite fusion of rich coffee notes and creamy caramel sweetness with our Curl Caramel coffee capsules. Crafted with the utmost care and precision, each sip delivers an unparalleled coffee experience that tantalizes the taste buds and captivates the senses.",
+        "strength": 4,
+        "beans": "Our Curl Caramel blend combines premium Arabica beans sourced from the lush coffee plantations of South America, renowned for their smooth texture and bold flavor profile. We've also infused a hint of high-quality Robusta beans to add depth and intensity to every cup.",
+        "flavours": "Immerse yourself in the luxurious aroma of freshly roasted coffee, complemented by the irresistible sweetness of velvety caramel. With every sip, you'll experience a harmonious balance of caramel indulgence and robust coffee character, creating a truly decadent taste sensation.",
+        "intensity": "Curl Caramel boasts a medium to high intensity, making it an ideal choice for those who crave a coffee with depth and complexity. Whether enjoyed as an energizing morning pick-me-up or a soothing afternoon treat, this blend promises to satisfy even the most discerning coffee connoisseurs.",
+        "suffix": "Treat yourself to the decadent allure of Curl Caramel and embark on a journey of pure indulgence. With every cup, savor the exquisite taste and aroma that only the finest coffee beans can provide. Experience the magic of Curl Caramel and discover a new level of coffee perfection.",
+        "price": "12.00"
+    },
+    {
+        "id": "ecc133064c8d4da9",
+        "name": "XSSpresso Shots",
+        "description":"Treat yourself to the bold and flavorful XSSpresso Shots, a captivating blend that combines the rich, intense flavor of premium Arabica beans with the invigorating kick of espresso. Crafted with precision and passion, each shot promises to awaken your senses and ignite your palate with every sip.",
+        "strength":5,
+        "beans":"XSSpresso Shots feature a carefully selected blend of high-quality Arabica beans, sourced from the finest coffee regions around the globe. Each bean is expertly roasted to perfection, ensuring a bold and robust flavor profile that is both satisfying and memorable.",
+        "flavours":"Immerse yourself in the intense aroma of freshly brewed coffee, as notes of dark chocolate and caramel tantalize your taste buds. With XSSpresso Shots, every sip is a journey of discovery, revealing layers of complexity and depth that will leave you craving for more.",
+        "intensity":"XSSpresso Shots boast a high intensity, making them the perfect choice for those who seek a coffee experience that packs a punch. Whether enjoyed as a morning wake-up call or an afternoon indulgence, XSSpresso Shots promise to deliver an unforgettable coffee experience that will leave you energized and ready to tackle the day.",
+        "suffix":"Elevate your coffee game with XSSpresso Shots and experience the bold and invigorating flavor that only the finest coffee beans can provide.",
+        "price": "15.00"
+    },
+    {
+        "id": "14f15a0ad4c73417",
+        "name": "Hackaccino",
+        "description":"Unleash your inner hacker with Hackaccino, a bold and audacious blend that pushes the boundaries of traditional coffee flavors. Crafted with a blend of premium Arabica and Robusta beans, Hackaccino promises a truly unique and exhilarating coffee experience that will leave you craving for more.",
+        "strength":4,
+        "beans":"Hackaccino features a carefully curated blend of Arabica and Robusta beans, sourced from the world's most renowned coffee regions. Each bean is meticulously selected and expertly roasted to perfection, ensuring a bold and robust flavor profile that is sure to impress even the most discerning coffee connoisseurs.",
+        "flavours":"Prepare to be captivated by the bold and intense flavors of Hackaccino, as notes of dark chocolate and toasted nuts dance on your palate. With each sip, experience a symphony of flavors that tantalizes the taste buds and leaves you craving for more.",
+        "intensity":"Hackaccino boasts a medium to high intensity, making it the perfect choice for those who seek a coffee experience that is both bold and exhilarating. Whether enjoyed as a morning wake-up call or an afternoon pick-me-up, Hackaccino promises to deliver a truly unforgettable coffee experience that will leave you energized and ready to conquer the day.",
+        "suffix":"Experience the thrill of hacking with every sip of Hackaccino and discover a new level of coffee enjoyment that is truly one-of-a-kind.",
+        "price": "13.37"
+    },
+    {
+        "id": "1bd76a666ba7939e",
+        "name": "Root Access Roast",
+        "description":"Gain unrestricted access to flavor with Root Access Roast, a bold and robust blend that pushes the boundaries of traditional coffee. Crafted with a unique combination of premium Arabica and Robusta beans, Root Access Roast promises a coffee experience like no other, with unparalleled depth, complexity, and richness.",
+        "strength":5,
+        "beans":"Root Access Roast features a carefully selected blend of high-quality Arabica and Robusta beans, sourced from the world's most renowned coffee regions. Each bean is meticulously roasted to perfection, ensuring a bold and robust flavor profile that is both satisfying and unforgettable.",
+        "flavours":"Immerse yourself in the bold and intense flavors of Root Access Roast, as notes of dark chocolate, caramel, and toasted nuts envelop your palate. With each sip, experience a symphony of flavors that tantalizes the taste buds and leaves you craving for more.",
+        "intensity":"Root Access Roast boasts a high intensity, making it the perfect choice for those who seek a coffee experience that is bold, robust, and unapologetically intense. Whether enjoyed as a morning wake-up call or an afternoon indulgence, Root Access Roast promises to deliver a truly unforgettable coffee experience that will leave you energized and ready to seize the day.",
+        "suffix":"Experience the power of Root Access Roast and discover a new level of coffee enjoyment that is truly unparalleled.",
+        "price": "7.50"
+    }
+]

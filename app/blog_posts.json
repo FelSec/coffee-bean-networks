@@ -1,0 +1,27 @@
+[
+    {
+        "id": "p1",
+        "title": "Coffee Benefits",
+        "content": "Coffee is known to boost energy levels and improve mental alertness."
+    },
+    {
+        "id": "p2",
+        "title": "Different Coffee Types",
+        "content": "Learn about the various types of coffee beans and brewing methods."
+    },
+    {
+        "id": "p3",
+        "title": "Coffee Recipes",
+        "content": "Discover delicious recipes for coffee-based beverages and desserts."
+    },
+    {
+        "id": "p4",
+        "title": "Coffee Culture",
+        "content": "Explore the rich history and cultural significance of coffee around the world."
+    },
+    {
+        "id": "p5",
+        "title": "Coffee and Health",
+        "content": "Find out about the potential health benefits and risks associated with coffee consumption."
+    }
+]
