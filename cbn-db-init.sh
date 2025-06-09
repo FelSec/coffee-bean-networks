@@ -6,6 +6,9 @@ CUSER='CBN-Admin'
 CPASS='7T7YqQ9%DtZ!Sb'
 
 echo '[!] Task 1 of 6 - Creating couchbase cluster...'
+# node init
+/opt/couchbase/bin/couchbase-cli node-init -c $CLUSTER -u $CUSER -p $CPASS
+
 # create cluster
 /opt/couchbase/bin/couchbase-cli cluster-init -c $CLUSTER --cluster-username $CUSER --cluster-password $CPASS --cluster-name cbn-db --services data,index,query
 
