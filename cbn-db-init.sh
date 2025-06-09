@@ -49,16 +49,17 @@ sleep 1
 echo '[!] Task 4 of 6 - Changing couchbase configurations...'
 /opt/couchbase/bin/couchbase-cli setting-query -c $CLUSTER --username $CUSER --password $CPASS --set --curl-access unrestricted
 echo '[!] Task 4 of 6 - Configuration updated'
-sleep 5
+echo '[!] Waiting for server rebalance...'
+sleep 30
 echo '[!] Task 5 of 6 - Creating bucket indexes...'
 # create indexes for data
-/opt/couchbase/bin/cbq -s 'CREATE PRIMARY INDEX ON blog_posts' -u $CUSER -p $CPASS
-/opt/couchbase/bin/cbq -s 'CREATE PRIMARY INDEX ON borkborkbork' -u $CUSER -p $CPASS
-/opt/couchbase/bin/cbq -s 'CREATE PRIMARY INDEX ON flag_two' -u $CUSER -p $CPASS
-/opt/couchbase/bin/cbq -s 'CREATE PRIMARY INDEX ON languages' -u $CUSER -p $CPASS
-/opt/couchbase/bin/cbq -s 'CREATE PRIMARY INDEX ON pending_posts' -u $CUSER -p $CPASS
-/opt/couchbase/bin/cbq -s 'CREATE PRIMARY INDEX ON products' -u $CUSER -p $CPASS
-/opt/couchbase/bin/cbq -s 'CREATE PRIMARY INDEX ON status' -u $CUSER -p $CPASS
+/opt/couchbase/bin/cbq -e http://$CLUSTER:8093 -s 'CREATE PRIMARY INDEX ON blog_posts' -u $CUSER -p $CPASS
+/opt/couchbase/bin/cbq -e http://$CLUSTER:8093 -s 'CREATE PRIMARY INDEX ON borkborkbork' -u $CUSER -p $CPASS
+/opt/couchbase/bin/cbq -e http://$CLUSTER:8093 -s 'CREATE PRIMARY INDEX ON flag_two' -u $CUSER -p $CPASS
+/opt/couchbase/bin/cbq -e http://$CLUSTER:8093 -s 'CREATE PRIMARY INDEX ON languages' -u $CUSER -p $CPASS
+/opt/couchbase/bin/cbq -e http://$CLUSTER:8093 -s 'CREATE PRIMARY INDEX ON pending_posts' -u $CUSER -p $CPASS
+/opt/couchbase/bin/cbq -e http://$CLUSTER:8093 -s 'CREATE PRIMARY INDEX ON products' -u $CUSER -p $CPASS
+/opt/couchbase/bin/cbq -e http://$CLUSTER:8093 -s 'CREATE PRIMARY INDEX ON status' -u $CUSER -p $CPASS
 echo '[!] Task 5 of 6 - Indexes created'
 sleep 10
 

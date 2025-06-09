@@ -18,6 +18,6 @@ docker run -d --name cbn-n1ql -p 5000:5000 cbn-n1ql
 ### Pre-built Image
 
 ```
-docker pull felsec/cbn-n1ql:v1.1.0
+docker pull felsec/cbn-n1ql:latest
 docker run -d --name cbn-n1ql -p 5000:5000 felsec/cbn-n1ql
 ```
